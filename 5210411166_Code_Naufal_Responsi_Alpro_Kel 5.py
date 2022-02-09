@@ -128,7 +128,7 @@ def HitungParkir(input_plat):
                     else :
                         biaya = 50000
 
-                print("Nominal Yang Harus Dibayarkan : ",biaya)
+                print("Nominal Yang Harus Dibayarkan : Rp. ",biaya)
                 usermasuk = int(input("Masukan Nominal Pembayaran : "))
 
                 while usermasuk < biaya :
